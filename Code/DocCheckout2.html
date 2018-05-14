@@ -1,0 +1,117 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="theme.css" title="style" />
+</head>
+<body>    
+    <img src="images/sharepoint.jpg" alt="test"/>
+   		 <div class = "header">
+   			 <ul>
+   				 <li><a href="home.html" >Home</a></li>
+   				 <li><a href="login.html" >Login</a></li>
+   				 <li><a href="DocScreen.html" >Documents</a></li>
+   				 <li><a href="Calendar.html" >Calendar</a></li>
+   			 </ul>
+   		 </div>    
+<div class = "body">
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+<h1>
+Welcome to DPS IT Sharepoint, Andrew
+</h1>
+<table width ="100%" border ="2" cellpadding = "1" align = "center">
+<tr>
+	<td>
+	Document Name:
+	</td>
+	<td>
+	Created by:
+	</td>
+	<td>
+	Last Modified:
+	</td>
+	<td>
+	Status:
+	</td>
+	<td>
+	Check in/out:
+	</td>
+</tr>
+<tr>
+	<td>
+	042912Extract.xlsx
+	</td>
+	<td>
+	S. Stevens
+	</td>
+	<td>
+	S. Stevens
+	</td>
+	<td>
+	Available
+	</td>
+	<td>
+	<form method="get" action="DocCheckout1.html">
+		<button type="submit">Check Out?</button>
+	</form>
+	</td>
+</tr>
+<tr>
+	<td>
+	DeptRoster.docx
+	</td>
+	<td>
+	A. Bae
+	</td>
+	<td>
+	J. Johnson
+	</td>
+	<td>
+	Checked Out
+	</td>
+	<td>
+	<form method="get" action="DocScreen2.html">
+		<button type="submit">Check In?</button>
+	</form>
+	</td>
+</tr><tr>
+	<td>
+	2018NorthstarProcess.docx
+	</td>
+	<td>
+	J. Nguyen
+	</td>
+	<td>
+	A. Bae
+	</td>
+	<td>
+	Available
+	</td>
+	<td>
+	<form method="get" action="DocCheckout3.html">
+		<button type="submit">Check Out?</button>
+	</form>
+	</td>
+</tr>
+</table>
+<br>
+	<form method="get" action="home.html">
+		<button type="submit">Home</button>
+	</form>
+</div>
+</body>
+</html>
